@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin ca sĩ"
+        android:textStyle="bold"
+        android:id="@+id/tvtitel"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/purple_100"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edMaCS"
+        android:hint="Mã Cs Sĩ"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtenCS"
+        android:hint="Tên Ca Sĩ"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edngaysinh"
+            android:layout_weight="1"
+            android:hint="Ngày Sinh"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:id="@+id/imgngay"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ngay"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edGT"
+        android:hint="Giới Tính"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveCS"
+            android:text="Lưu"
+            android:background="@drawable/boder"
+            android:drawableStart="@drawable/ic_save"
+            android:layout_marginHorizontal="20dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btncancelCS"
+            android:text="Hủy"
+            android:background="@drawable/boder"
+            android:layout_margin="20dp"
+            android:drawableStart="@drawable/ic_cancel"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

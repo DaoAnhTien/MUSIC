@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_theloai"
+            android:title="Thể Loại "
+            android:icon="@drawable/theloai"/>
+        <item android:id="@+id/nav_nhac"
+            android:title="Nhac"
+            android:icon="@drawable/nhac"/>
+        <item android:id="@+id/nav_casi"
+            android:title=" ca sĩ"
+            android:icon="@drawable/casi"/>
+
+        <item android:title="Thống Kê">
+            <menu>
+                <item android:id="@+id/Sub_nghemhieu"
+                    android:title="10 thể loại nghe  nhiều nhất"
+                    android:icon="@drawable/ic_top"/>
+            </menu>
+        </item>
+        <item android:title="Người Dùng">
+            <menu>
+                <item android:id="@+id/Sub_Pass"
+                    android:title="Đổi Mật Khẩu"
+                    android:icon="@drawable/ic_pass"/>
+                <item android:id="@+id/Sub_logout"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_logout"/>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
